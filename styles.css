@@ -1,0 +1,238 @@
+@import url(' https://fonts.google.com/?query=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+
+.btnSignin {
+  background-color: rgb(0,123,255);
+  color: white;
+  padding: 5px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.signup {
+    background-image: url('images/bg-masthead.jpg');
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup p {
+    max-width: 650px;
+    text-align: center;
+}
+
+input {
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+
+}
+
+.btnSignup {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.container {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 290px;
+
+}
+
+#element {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+i {
+    color: #007bff;
+    padding: 10px;
+    
+}
+
+#element p {
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.img-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-text .element-text, .img-text .element-img  {
+    max-width: 50%;
+}
+
+.element-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.element-text p{
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+    display: flex;
+    text-align: left;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+.element-text h3{
+    display: flex;
+    text-align: left;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+
+
+.container-reviews {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 250px;
+}
+
+.container-reviews h3 {
+    padding: 20px;
+}
+
+.review img {
+    width: 120px;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.review p{
+    font-size: 12px;
+    color: gray;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+}
+
+.review h5 {
+    padding: 5px;;
+}
+
+.bottom {
+    height: 200px;
+}
+
+footer {
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+.navbar a{
+    color: #007bff;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.navbar {
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-size: 10px;
+    color: gray;
+    font-weight: 400;
+}
+
+
+
+@media (max-width: 450px){
+
+
+
+    .container {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .reviews {
+        flex-direction: column;
+    }
+
+    .container-reviews {
+        height: 700px;
+    }
+
+   footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+   }
+}
+
+
+
